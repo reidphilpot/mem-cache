@@ -1,0 +1,17 @@
+{
+  "name": "mem-cache",
+  "version": "0.0.0",
+  "description": "Simple memory cache",
+  "main": "mem-cache.js",
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "author": "Reid Philpot",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "chai": "^1.10.0",
+    "amdefine": ">=0.1.0",
+    "requirejs": "^2.1.15"
+  }
+}
