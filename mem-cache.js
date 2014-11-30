@@ -2,7 +2,7 @@ if (typeof define !== 'function') { var define = require('amdefine')(module) }
 
 define(function () {
 
-    var MemCache = function () {
+    function MemCache() {
 
       var cache = {}
 
@@ -26,6 +26,8 @@ define(function () {
 
       this.set = function (key, value) {
         cache[key] = value
+
+        return value
       }
 
       this.get = function (key) {

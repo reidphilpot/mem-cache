@@ -1,7 +1,7 @@
-var expect = require('../node_modules/chai/chai').expect
+var expect = require('chai').expect
   , Cache = require('../mem-cache')
 
-describe('mem-cache', function () {
+describe('Mem Cache', function () {
 
   var cache
 
