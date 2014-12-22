@@ -88,6 +88,14 @@ describe('Mem Cache', function () {
 
   })
 
+  it ('should return a null value if attempting to remove a key that does not exist', function () {
+
+    var value = cache.remove('foo2')
+
+    expect(value).to.be.null
+
+  })
+
   it ('should be able to flush the cache', function () {
 
     cache.set('foo0', 'bar0');
